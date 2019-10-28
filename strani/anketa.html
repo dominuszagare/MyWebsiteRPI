@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+	<meta charset="UTF-8">
+	<title>Dominik zagar spletna stran</title>
+	<link href="css/StyleSheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1 class="naslov">OSS Vaja 3 21.10.2019</h1>
+<ul class="meni">
+	<li><a href="../index.html">Domov</a></li>
+	<li><a href="ponudba.html">Ponudba</a></li>
+	<li><a class="active" href="anketa.html">Anketa</a></li>
+	<li><a href="https://estudij.um.si">Vaje</a></li>
+</ul>
+	<div class="anketa">
+	<h2 class="podnaslov">Anketa</h2>
+	<form action="anketa.html" method="get">
+		Ime:<br>
+		<input type="text" name="ime"><br>
+		Primek:<br>
+		<input type="text" name="primek"><br>
+		Kraj:<br>
+		<select id="kraj" name="kraj">
+		<option value="Ljubljana">Ljubljana</option>
+		<option value="Maribor">Maribor</option>
+		<option value="Celje">Celje</option>
+		<option value="Velenje">Velenje</option>
+		<option value="NovoMesto">NovoMesto</option>
+		<option value="Ptuj">Ptuj</option>
+		<option value="Piran">Piran</option>
+		</select><br>
+		Email:<br>
+		<input type="text" name="email"><br>
+		Tip vozila:
+		<input type="radio" name="Tip" value="Kombilimuzina">Kombilimuzina
+		<input type="radio" name="Tip" value="Limuzina">Limuzina
+		<input type="radio" name="Tip" value="Enoprostorec">Enoprostorec
+		<input type="radio" name="Tip" value="Karavan">Karavan
+		<input type="radio" name="Tip" value="TerenskoVozilo">Terenskovozilo
+		<br>
+		PriljubljeneZnamke:
+			<input type="checkbox" name="BMW" value="BMW"> BMW 
+			<input type="checkbox" name="Opel" value="Opel">Opel
+			<input type="checkbox" name="Ford" value="Ford">Ford
+			<input type="checkbox" name="Peugeot" value="Peugeot">Peugeot
+			<input type="checkbox" name="Porshe" value="Porshe">Porshe
+			<input type="checkbox" name="Škoda" value="Škoda">Škoda
+			<input type="checkbox" name="Honda"value="Honda">Honda
+		<br><br>
+		Želje:<br>
+		<textarea name="želje" rows="10" cols="60"></textarea><br><br>
+		
+		<input type="submit" value="Pošlji">
+	</form> 
+	</div>
+</body>
+</html>

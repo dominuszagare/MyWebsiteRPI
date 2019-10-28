@@ -3,35 +3,41 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Dominik zagar spletna stran</title>
+	<link href="strani/css/StyleSheet.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h2>OSS Vaja 2 14.10.2019</h2>
-	<ul>
-		<li><a href="index.html">Domov</a></li>
-		<li><a href="ponudba.html">Ponudba</a></li>
-		<li><a href="anketa.html">Anketa</a></li>
-		<li><a href="https://estudij.um.si">Vaje</a></li>
-	</ul>
 
-<h2>O meni</h2>
-<p>
-Ime: Dominik<br>
-Priimek: Žagar<br>
-Email: <a href="mailto:ddominik33@gmail.com">ddominik33@gmail.com</a><br>
-Fakulteta: <b> FERI</b><br>
-Predmet: <ins>Osnove svetovnega spleta</ins>
-
-<p> Že od nekdaj sem si želel ukvarjati z računalništvom. <br>
-Moja prva želja za vpis v srednjo šolo je bilo računalnistvo.<br>
-Ampak ko sem ugotovil da program ni takšen kot sem si prestavljal, sem se raje vpisal na mehatroniko.<br>
-Po štirih letih pa se lahko resno lotim računalništva. 
-</p>
-
-<img src="slike/slika.jpg" alt="profil">
-<hr>
-<video width="600" height="450" controls>
-  <source src="video.mp4" type="video/mp4">
-</video>
-
+<h1 class="naslov">OSS Vaja 3 21.10.2019</h1>
+<ul class="meni">
+	<li><a class="active" href="index.html">Domov</a></li>
+	<li><a href="strani/ponudba.html">Ponudba</a></li>
+	<li><a href="strani/anketa.html">Anketa</a></li>
+	<li><a href="https://estudij.um.si">Vaje</a></li>
+</ul>
+<div class="opis">
+	<h2 class="podnaslov">O meni</h2>
+	<p><a>
+	Ime: Dominik<br>
+	Priimek: Žagar<br>
+	Email: <a href="mailto:ddominik33@gmail.com">ddominik33@gmail.com</a><br>
+	Fakulteta: <b> FERI</b><br>
+	Predmet: <ins>Osnove svetovnega spleta</ins><br>
+	<br>
+	Že od nekdaj sem si želel ukvarjati z računalništvom. <br>
+	Moja prva želja za vpis v srednjo šolo je bilo računalnistvo.<br>
+	Ampak ko sem ugotovil da program ni takšen kot sem si prestavljal, sem se raje vpisal na mehatroniko.<br>
+	Po štirih letih pa se lahko resno lotim računalništva. 
+	</a></p>
+	<img src="strani/slike/slika.jpg" alt="profil">
+	<p class="podtekst">Ja to sem jaz</p>
+</div>
+<div class="video">
+	<h2 class="podnaslov">Video</h2>
+	<p><a>Go-kart montaža</a></p>
+	<video controls>
+	  <source src="strani/slike/video.mp4" type="video/mp4">
+	  Your browser does not support HTML5 video.
+	</video>
+<div>
 </body>
 </html>
